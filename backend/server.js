@@ -1,12 +1,12 @@
-import cors from "cors";
-import dotenv from "dotenv";
-import express from "express";
-import connectDB from "./config/db.js";
-import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
-import authRoutes from "./routes/authRoutes.js";
-import contactRoutes from "./routes/contactRoutes.js";
-import foodRoutes from "./routes/foodRoutes.js";
-import orderRoutes from "./routes/orderRoutes.js";
+  import cors from "cors";
+  import dotenv from "dotenv";
+  import express from "express";
+  import connectDB from "./config/db.js";
+  import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
+  import authRoutes from "./routes/authRoutes.js";
+  import contactRoutes from "./routes/contactRoutes.js";
+  import foodRoutes from "./routes/foodRoutes.js";
+  import orderRoutes from "./routes/orderRoutes.js";
 
 dotenv.config();
 connectDB();
